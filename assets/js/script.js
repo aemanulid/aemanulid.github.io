@@ -10,6 +10,13 @@ navToggle.addEventListener('click', () => {
     }
 });
 
+document.addEventListener('click', (event) => {
+    if (navMobile.classList.contains('open') && !navMobile.contains(event.target) && event.target !== navToggle) {
+        navMobile.classList.remove('open');
+        navMobile.style.right = '-250px';
+    }
+});
+
 
 const scrollLink = document.getElementById('scrollLink');
 const targetArea = document.getElementById('first');
