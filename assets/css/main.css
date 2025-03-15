@@ -148,29 +148,10 @@ body {
 }
 
 #profile-image {
-	float: left;
 	width: 30%;
-	margin: 30px;
+	margin: 1rem;
 	border: 1px solid gray;
 	border-radius: 50%;
-}
-
-@media (max-width: 630px) {
-
-	#desktop-title-header {
-		display: none;
-	}
-
-	#mobile-title-header {
-		display: block;
-		color: white;
-		margin: 0;
-	}
-
-	#profile-image {
-		width: 90%;
-	}
-
 }
 
 ol,
@@ -351,6 +332,10 @@ button,
 	white-space: nowrap;
 }
 
+#funFactButton {
+	margin: 0 0 1rem 0;
+}
+
 input[type="submit"].large,
 input[type="reset"].large,
 input[type="button"].large,
@@ -500,7 +485,7 @@ ul.icons.alt li .icon:before {
 
 ul {
 	list-style: disc;
-	margin: 0 0 2rem 0;
+	margin: 0 0 1rem 0;
 	padding-left: 1rem;
 }
 
@@ -522,7 +507,7 @@ header>p {
 
 
 header.major {
-	margin: 0 0 4rem 0;
+	margin: 0 0 2rem 0;
 	text-align: center;
 }
 
@@ -611,7 +596,7 @@ body.is-preload #wrapper.fade-in:before {
 #main>.post header.major h2 {
 	font-size: 4rem;
 	line-height: 1.1;
-	margin: 0 0 2rem 0;
+	margin: 0;
 }
 
 #main>.post.featured {
@@ -621,7 +606,7 @@ body.is-preload #wrapper.fade-in:before {
 @media screen and (max-width: 1280px) {
 
 	#main>.post {
-		padding: 4rem 2rem 2rem 2rem;
+		padding: 2rem;
 	}
 
 }
@@ -837,4 +822,27 @@ body.is-preload #wrapper.fade-in:before {
 	color: black;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+
+@media (max-width: 630px) {
+
+	#desktop-title-header {
+		display: none;
+	}
+
+	#mobile-title-header {
+		display: block;
+		color: white;
+		margin: 0;
+	}
+
+	#profile-image {
+		width: 90%;
+	}
+
+	#main>.post {
+		padding: 2rem 1rem 1rem 1rem;
+	}
+
 }
