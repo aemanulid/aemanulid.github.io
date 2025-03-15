@@ -1,2 +1,3 @@
-# aemanulid.github.io
-Mini-Project of Angel Rose Manulid for CMSC 207
+# Angel Rose Manulid - Profile Page
+
+Here is a profile page I made about myself.
