@@ -121,7 +121,6 @@ body {
 
 @media (max-width: 875px) {
 
-	/* Adjust breakpoint as needed */
 	.navbar-links {
 		display: none;
 		/* Hide desktop nav */
@@ -144,17 +143,17 @@ body {
 	}
 }
 
-.mobile-title-header {
+#mobile-title-header {
 	display: none;
 }
 
 @media (max-width: 630px) {
 
-	.desktop-title-header {
+	#desktop-title-header {
 		display: none;
 	}
 
-	.mobile-title-header {
+	#mobile-title-header {
 		display: block;
 		color: white;
 		margin: 0;
